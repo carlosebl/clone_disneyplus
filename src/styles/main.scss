@@ -2,6 +2,7 @@
 @use 'hero';
 @use 'shows';
 @use 'plans';
+@use 'watch-anywhere';
 
 @font-face {
     font-family: Avenir;
@@ -32,7 +33,7 @@ body {
     color: variaveis.$corTextoPrincipal;
 }
 
-@mixin title($fontSize: 28px) {
+@mixin title($fontSize: 40px) {
     @include text($fontSize);
     color: variaveis.$cortextoSecundario;
 }
